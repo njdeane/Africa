@@ -29,6 +29,7 @@
 		A6E3AAB426F7241900C1239D /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6E3AAB326F7241900C1239D /* MapView.swift */; };
 		A6E3AAB626F7243600C1239D /* GalleryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6E3AAB526F7243600C1239D /* GalleryView.swift */; };
 		A6E3AAB826F7244E00C1239D /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6E3AAB726F7244E00C1239D /* MainView.swift */; };
+		A6E3AABB26F729CE00C1239D /* CoverImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6E3AABA26F729CE00C1239D /* CoverImageView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -56,6 +57,7 @@
 		A6E3AAB326F7241900C1239D /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
 		A6E3AAB526F7243600C1239D /* GalleryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GalleryView.swift; sourceTree = "<group>"; };
 		A6E3AAB726F7244E00C1239D /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		A6E3AABA26F729CE00C1239D /* CoverImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoverImageView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -88,6 +90,7 @@
 		A6E3AA8226F71DD600C1239D /* Africa */ = {
 			isa = PBXGroup;
 			children = (
+				A6E3AAB926F729BA00C1239D /* View */,
 				A6E3AAA726F7215000C1239D /* Data */,
 				A6E3AA9226F720E700C1239D /* Video */,
 				A6E3AAB026F723A400C1239D /* App */,
@@ -145,6 +148,14 @@
 				A6E3AAB726F7244E00C1239D /* MainView.swift */,
 			);
 			path = App;
+			sourceTree = "<group>";
+		};
+		A6E3AAB926F729BA00C1239D /* View */ = {
+			isa = PBXGroup;
+			children = (
+				A6E3AABA26F729CE00C1239D /* CoverImageView.swift */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -232,6 +243,7 @@
 			files = (
 				A6E3AA8626F71DD600C1239D /* ContentView.swift in Sources */,
 				A6E3AAB826F7244E00C1239D /* MainView.swift in Sources */,
+				A6E3AABB26F729CE00C1239D /* CoverImageView.swift in Sources */,
 				A6E3AAB426F7241900C1239D /* MapView.swift in Sources */,
 				A6E3AA8426F71DD600C1239D /* AfricaApp.swift in Sources */,
 				A6E3AAB226F723FB00C1239D /* VideoListView.swift in Sources */,
