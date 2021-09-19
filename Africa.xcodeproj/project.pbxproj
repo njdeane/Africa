@@ -31,6 +31,7 @@
 		A6E3AAB826F7244E00C1239D /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6E3AAB726F7244E00C1239D /* MainView.swift */; };
 		A6E3AABB26F729CE00C1239D /* CoverImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6E3AABA26F729CE00C1239D /* CoverImageView.swift */; };
 		A6E3AABE26F72C9000C1239D /* CoverImageModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6E3AABD26F72C9000C1239D /* CoverImageModel.swift */; };
+		A6E3AAC126F72E6400C1239D /* CodableBundleExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6E3AAC026F72E6400C1239D /* CodableBundleExtension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -60,6 +61,7 @@
 		A6E3AAB726F7244E00C1239D /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
 		A6E3AABA26F729CE00C1239D /* CoverImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoverImageView.swift; sourceTree = "<group>"; };
 		A6E3AABD26F72C9000C1239D /* CoverImageModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoverImageModel.swift; sourceTree = "<group>"; };
+		A6E3AAC026F72E6400C1239D /* CodableBundleExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CodableBundleExtension.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -92,6 +94,7 @@
 		A6E3AA8226F71DD600C1239D /* Africa */ = {
 			isa = PBXGroup;
 			children = (
+				A6E3AABF26F72E4800C1239D /* Extension */,
 				A6E3AABC26F72C7C00C1239D /* Model */,
 				A6E3AAB926F729BA00C1239D /* View */,
 				A6E3AAA726F7215000C1239D /* Data */,
@@ -167,6 +170,14 @@
 				A6E3AABD26F72C9000C1239D /* CoverImageModel.swift */,
 			);
 			path = Model;
+			sourceTree = "<group>";
+		};
+		A6E3AABF26F72E4800C1239D /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				A6E3AAC026F72E6400C1239D /* CodableBundleExtension.swift */,
+			);
+			path = Extension;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -260,6 +271,7 @@
 				A6E3AA8426F71DD600C1239D /* AfricaApp.swift in Sources */,
 				A6E3AAB226F723FB00C1239D /* VideoListView.swift in Sources */,
 				A6E3AAB626F7243600C1239D /* GalleryView.swift in Sources */,
+				A6E3AAC126F72E6400C1239D /* CodableBundleExtension.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
