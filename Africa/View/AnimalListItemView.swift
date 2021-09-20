@@ -8,6 +8,7 @@
 import SwiftUI
 
 struct AnimalListItemView: View {
+  
   var body: some View {
     HStack(alignment: .center, spacing: 16) {
       Image("lion")
