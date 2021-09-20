@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		A64E161026F857A9007D7D39 /* VideoPlayerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A64E160F26F857A9007D7D39 /* VideoPlayerView.swift */; };
+		A64E161326F858D3007D7D39 /* VideoPlayerHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = A64E161226F858D3007D7D39 /* VideoPlayerHelper.swift */; };
 		A662F6B726F820D3005EAF2C /* HeadingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A662F6B626F820D3005EAF2C /* HeadingView.swift */; };
 		A662F6B926F821E7005EAF2C /* InsetGalleryview.swift in Sources */ = {isa = PBXBuildFile; fileRef = A662F6B826F821E7005EAF2C /* InsetGalleryview.swift */; };
 		A662F6BB26F829FC005EAF2C /* InsetFactView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A662F6BA26F829FC005EAF2C /* InsetFactView.swift */; };
@@ -47,6 +48,7 @@
 
 /* Begin PBXFileReference section */
 		A64E160F26F857A9007D7D39 /* VideoPlayerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoPlayerView.swift; sourceTree = "<group>"; };
+		A64E161226F858D3007D7D39 /* VideoPlayerHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoPlayerHelper.swift; sourceTree = "<group>"; };
 		A662F6B626F820D3005EAF2C /* HeadingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeadingView.swift; sourceTree = "<group>"; };
 		A662F6B826F821E7005EAF2C /* InsetGalleryview.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InsetGalleryview.swift; sourceTree = "<group>"; };
 		A662F6BA26F829FC005EAF2C /* InsetFactView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InsetFactView.swift; sourceTree = "<group>"; };
@@ -97,6 +99,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		A64E161126F858BA007D7D39 /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				A64E161226F858D3007D7D39 /* VideoPlayerHelper.swift */,
+			);
+			path = Helper;
+			sourceTree = "<group>";
+		};
 		A6E3AA7726F71DD600C1239D = {
 			isa = PBXGroup;
 			children = (
@@ -116,6 +126,7 @@
 		A6E3AA8226F71DD600C1239D /* Africa */ = {
 			isa = PBXGroup;
 			children = (
+				A64E161126F858BA007D7D39 /* Helper */,
 				A6E3AAB026F723A400C1239D /* App */,
 				A6E3AAB926F729BA00C1239D /* View */,
 				A6E3AABF26F72E4800C1239D /* Extension */,
@@ -306,6 +317,7 @@
 				A6901FD626F81D9A006F7547 /* AnimalDetailView.swift in Sources */,
 				A6901FD426F819B4006F7547 /* AnimalModel.swift in Sources */,
 				A6E3AAB426F7241900C1239D /* MapView.swift in Sources */,
+				A64E161326F858D3007D7D39 /* VideoPlayerHelper.swift in Sources */,
 				A662F6BD26F82D69005EAF2C /* InsetMapView.swift in Sources */,
 				A6E3AA8426F71DD600C1239D /* AfricaApp.swift in Sources */,
 				A6E3AAB226F723FB00C1239D /* VideoListView.swift in Sources */,
