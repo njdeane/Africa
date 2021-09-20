@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A64E161026F857A9007D7D39 /* VideoPlayerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A64E160F26F857A9007D7D39 /* VideoPlayerView.swift */; };
 		A662F6B726F820D3005EAF2C /* HeadingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A662F6B626F820D3005EAF2C /* HeadingView.swift */; };
 		A662F6B926F821E7005EAF2C /* InsetGalleryview.swift in Sources */ = {isa = PBXBuildFile; fileRef = A662F6B826F821E7005EAF2C /* InsetGalleryview.swift */; };
 		A662F6BB26F829FC005EAF2C /* InsetFactView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A662F6BA26F829FC005EAF2C /* InsetFactView.swift */; };
@@ -45,6 +46,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		A64E160F26F857A9007D7D39 /* VideoPlayerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoPlayerView.swift; sourceTree = "<group>"; };
 		A662F6B626F820D3005EAF2C /* HeadingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeadingView.swift; sourceTree = "<group>"; };
 		A662F6B826F821E7005EAF2C /* InsetGalleryview.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InsetGalleryview.swift; sourceTree = "<group>"; };
 		A662F6BA26F829FC005EAF2C /* InsetFactView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InsetFactView.swift; sourceTree = "<group>"; };
@@ -188,6 +190,7 @@
 				A662F6BC26F82D69005EAF2C /* InsetMapView.swift */,
 				A662F6BE26F83265005EAF2C /* ExternalWeblinkView.swift */,
 				A6659EBD26F84E230051D671 /* VideoListItemView.swift */,
+				A64E160F26F857A9007D7D39 /* VideoPlayerView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -312,6 +315,7 @@
 				A6659EBE26F84E230051D671 /* VideoListItemView.swift in Sources */,
 				A6E3AAC126F72E6400C1239D /* CodableBundleExtension.swift in Sources */,
 				A662F6B726F820D3005EAF2C /* HeadingView.swift in Sources */,
+				A64E161026F857A9007D7D39 /* VideoPlayerView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
